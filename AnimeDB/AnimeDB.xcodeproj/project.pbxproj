@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2DAD59525E45232002F1019 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAD59425E45232002F1019 /* AppDelegate.swift */; };
+		D2DAD59725E45232002F1019 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAD59625E45232002F1019 /* SceneDelegate.swift */; };
+		D2DAD59925E45232002F1019 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAD59825E45232002F1019 /* ViewController.swift */; };
+		D2DAD59C25E45232002F1019 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DAD59A25E45232002F1019 /* Main.storyboard */; };
+		D2DAD59F25E45232002F1019 /* AnimeDB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2DAD59D25E45232002F1019 /* AnimeDB.xcdatamodeld */; };
+		D2DAD5A125E45235002F1019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DAD5A025E45235002F1019 /* Assets.xcassets */; };
+		D2DAD5A425E45235002F1019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2DAD5A225E45235002F1019 /* LaunchScreen.storyboard */; };
+		D2DAD5AF25E45235002F1019 /* AnimeDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAD5AE25E45235002F1019 /* AnimeDBTests.swift */; };
+		D2DAD5BA25E45235002F1019 /* AnimeDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAD5B925E45235002F1019 /* AnimeDBUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2DAD5AB25E45235002F1019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DAD58925E45232002F1019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DAD59025E45232002F1019;
+			remoteInfo = AnimeDB;
+		};
+		D2DAD5B625E45235002F1019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2DAD58925E45232002F1019 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2DAD59025E45232002F1019;
+			remoteInfo = AnimeDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2DAD59125E45232002F1019 /* AnimeDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimeDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DAD59425E45232002F1019 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2DAD59625E45232002F1019 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D2DAD59825E45232002F1019 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D2DAD59B25E45232002F1019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2DAD59E25E45232002F1019 /* AnimeDB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AnimeDB.xcdatamodel; sourceTree = "<group>"; };
+		D2DAD5A025E45235002F1019 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2DAD5A325E45235002F1019 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2DAD5A525E45235002F1019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DAD5AA25E45235002F1019 /* AnimeDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DAD5AE25E45235002F1019 /* AnimeDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDBTests.swift; sourceTree = "<group>"; };
+		D2DAD5B025E45235002F1019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2DAD5B525E45235002F1019 /* AnimeDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimeDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DAD5B925E45235002F1019 /* AnimeDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDBUITests.swift; sourceTree = "<group>"; };
+		D2DAD5BB25E45235002F1019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2DAD58E25E45232002F1019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DAD5A725E45235002F1019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DAD5B225E45235002F1019 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2DAD58825E45232002F1019 = {
+			isa = PBXGroup;
+			children = (
+				D2DAD59325E45232002F1019 /* AnimeDB */,
+				D2DAD5AD25E45235002F1019 /* AnimeDBTests */,
+				D2DAD5B825E45235002F1019 /* AnimeDBUITests */,
+				D2DAD59225E45232002F1019 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2DAD59225E45232002F1019 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2DAD59125E45232002F1019 /* AnimeDB.app */,
+				D2DAD5AA25E45235002F1019 /* AnimeDBTests.xctest */,
+				D2DAD5B525E45235002F1019 /* AnimeDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2DAD59325E45232002F1019 /* AnimeDB */ = {
+			isa = PBXGroup;
+			children = (
+				D2DAD59425E45232002F1019 /* AppDelegate.swift */,
+				D2DAD59625E45232002F1019 /* SceneDelegate.swift */,
+				D2DAD59825E45232002F1019 /* ViewController.swift */,
+				D2DAD59A25E45232002F1019 /* Main.storyboard */,
+				D2DAD5A025E45235002F1019 /* Assets.xcassets */,
+				D2DAD5A225E45235002F1019 /* LaunchScreen.storyboard */,
+				D2DAD5A525E45235002F1019 /* Info.plist */,
+				D2DAD59D25E45232002F1019 /* AnimeDB.xcdatamodeld */,
+			);
+			path = AnimeDB;
+			sourceTree = "<group>";
+		};
+		D2DAD5AD25E45235002F1019 /* AnimeDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DAD5AE25E45235002F1019 /* AnimeDBTests.swift */,
+				D2DAD5B025E45235002F1019 /* Info.plist */,
+			);
+			path = AnimeDBTests;
+			sourceTree = "<group>";
+		};
+		D2DAD5B825E45235002F1019 /* AnimeDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2DAD5B925E45235002F1019 /* AnimeDBUITests.swift */,
+				D2DAD5BB25E45235002F1019 /* Info.plist */,
+			);
+			path = AnimeDBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2DAD59025E45232002F1019 /* AnimeDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DAD5BE25E45235002F1019 /* Build configuration list for PBXNativeTarget "AnimeDB" */;
+			buildPhases = (
+				D2DAD58D25E45232002F1019 /* Sources */,
+				D2DAD58E25E45232002F1019 /* Frameworks */,
+				D2DAD58F25E45232002F1019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimeDB;
+			productName = AnimeDB;
+			productReference = D2DAD59125E45232002F1019 /* AnimeDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2DAD5A925E45235002F1019 /* AnimeDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DAD5C125E45235002F1019 /* Build configuration list for PBXNativeTarget "AnimeDBTests" */;
+			buildPhases = (
+				D2DAD5A625E45235002F1019 /* Sources */,
+				D2DAD5A725E45235002F1019 /* Frameworks */,
+				D2DAD5A825E45235002F1019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DAD5AC25E45235002F1019 /* PBXTargetDependency */,
+			);
+			name = AnimeDBTests;
+			productName = AnimeDBTests;
+			productReference = D2DAD5AA25E45235002F1019 /* AnimeDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2DAD5B425E45235002F1019 /* AnimeDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DAD5C425E45235002F1019 /* Build configuration list for PBXNativeTarget "AnimeDBUITests" */;
+			buildPhases = (
+				D2DAD5B125E45235002F1019 /* Sources */,
+				D2DAD5B225E45235002F1019 /* Frameworks */,
+				D2DAD5B325E45235002F1019 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2DAD5B725E45235002F1019 /* PBXTargetDependency */,
+			);
+			name = AnimeDBUITests;
+			productName = AnimeDBUITests;
+			productReference = D2DAD5B525E45235002F1019 /* AnimeDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2DAD58925E45232002F1019 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					D2DAD59025E45232002F1019 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					D2DAD5A925E45235002F1019 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D2DAD59025E45232002F1019;
+					};
+					D2DAD5B425E45235002F1019 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = D2DAD59025E45232002F1019;
+					};
+				};
+			};
+			buildConfigurationList = D2DAD58C25E45232002F1019 /* Build configuration list for PBXProject "AnimeDB" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2DAD58825E45232002F1019;
+			productRefGroup = D2DAD59225E45232002F1019 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2DAD59025E45232002F1019 /* AnimeDB */,
+				D2DAD5A925E45235002F1019 /* AnimeDBTests */,
+				D2DAD5B425E45235002F1019 /* AnimeDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2DAD58F25E45232002F1019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DAD5A425E45235002F1019 /* LaunchScreen.storyboard in Resources */,
+				D2DAD5A125E45235002F1019 /* Assets.xcassets in Resources */,
+				D2DAD59C25E45232002F1019 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DAD5A825E45235002F1019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DAD5B325E45235002F1019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2DAD58D25E45232002F1019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DAD59F25E45232002F1019 /* AnimeDB.xcdatamodeld in Sources */,
+				D2DAD59925E45232002F1019 /* ViewController.swift in Sources */,
+				D2DAD59525E45232002F1019 /* AppDelegate.swift in Sources */,
+				D2DAD59725E45232002F1019 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DAD5A625E45235002F1019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DAD5AF25E45235002F1019 /* AnimeDBTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2DAD5B125E45235002F1019 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DAD5BA25E45235002F1019 /* AnimeDBUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2DAD5AC25E45235002F1019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DAD59025E45232002F1019 /* AnimeDB */;
+			targetProxy = D2DAD5AB25E45235002F1019 /* PBXContainerItemProxy */;
+		};
+		D2DAD5B725E45235002F1019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2DAD59025E45232002F1019 /* AnimeDB */;
+			targetProxy = D2DAD5B625E45235002F1019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2DAD59A25E45232002F1019 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DAD59B25E45232002F1019 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2DAD5A225E45235002F1019 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2DAD5A325E45235002F1019 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2DAD5BC25E45235002F1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2DAD5BD25E45235002F1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2DAD5BF25E45235002F1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4Q7TV9L67;
+				INFOPLIST_FILE = AnimeDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferzamora.AnimeDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2DAD5C025E45235002F1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4Q7TV9L67;
+				INFOPLIST_FILE = AnimeDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferzamora.AnimeDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D2DAD5C225E45235002F1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4Q7TV9L67;
+				INFOPLIST_FILE = AnimeDBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferzamora.AnimeDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeDB.app/AnimeDB";
+			};
+			name = Debug;
+		};
+		D2DAD5C325E45235002F1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4Q7TV9L67;
+				INFOPLIST_FILE = AnimeDBTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferzamora.AnimeDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimeDB.app/AnimeDB";
+			};
+			name = Release;
+		};
+		D2DAD5C525E45235002F1019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4Q7TV9L67;
+				INFOPLIST_FILE = AnimeDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferzamora.AnimeDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimeDB;
+			};
+			name = Debug;
+		};
+		D2DAD5C625E45235002F1019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4Q7TV9L67;
+				INFOPLIST_FILE = AnimeDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ferzamora.AnimeDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimeDB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2DAD58C25E45232002F1019 /* Build configuration list for PBXProject "AnimeDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DAD5BC25E45235002F1019 /* Debug */,
+				D2DAD5BD25E45235002F1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DAD5BE25E45235002F1019 /* Build configuration list for PBXNativeTarget "AnimeDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DAD5BF25E45235002F1019 /* Debug */,
+				D2DAD5C025E45235002F1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DAD5C125E45235002F1019 /* Build configuration list for PBXNativeTarget "AnimeDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DAD5C225E45235002F1019 /* Debug */,
+				D2DAD5C325E45235002F1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DAD5C425E45235002F1019 /* Build configuration list for PBXNativeTarget "AnimeDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2DAD5C525E45235002F1019 /* Debug */,
+				D2DAD5C625E45235002F1019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2DAD59D25E45232002F1019 /* AnimeDB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2DAD59E25E45232002F1019 /* AnimeDB.xcdatamodel */,
+			);
+			currentVersion = D2DAD59E25E45232002F1019 /* AnimeDB.xcdatamodel */;
+			path = AnimeDB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D2DAD58925E45232002F1019 /* Project object */;
+}
